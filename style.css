@@ -1,0 +1,122 @@
+body{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	background: #074c67;
+	border-radius: 5px;
+	padding: 1em;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+a.btn {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+a.btn:hover{
+	color: #ffb612;
+	font-weight: bold;
+}
+form {
+	width: 50%;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 10px;
+	background: #074c67;
+}
+form p {
+	color: white;
+	padding: 3px;
+	font-weight: 700;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+.task_input {
+	width: 75%;
+	height: 15px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+.add_btn {
+	height: 39px;
+	background: #ef9525;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	border: none;
+	margin-left: 7px;
+}
+.add_btn:hover{
+	cursor: pointer;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #bbbbbb;
+	text-align: center;
+}
+
+th {
+	font-size: 15px;
+	color: black;
+	font-family: sans-serif;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #ea0a0a;
+	padding: 1px 6px;
+	height: 30px;
+	border-radius: 13px;
+	text-decoration: none;
+	width: 30px;
+	font-size: 17px;
+}
+td a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:1024px){
+	.task_input {
+		width: 93%;
+		height: 15px;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+	}
+	.add_btn{
+		margin-top: 1em;
+		margin-left: 7em;
+	}
+}
